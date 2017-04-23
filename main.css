@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+
+html, body {
+    width: 1583px;
+    height: 770px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+    
+    color: #131517;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+ol, ul {
+    padding: 0;
+    list-style: none;
+}
+
+p {
+    line-height: 180%;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/*---------- Header Style ----------*/
+
+header {
+    width: 1583px;
+    height: 150px;
+    text-align: center;
+    color: #fff;
+    background-color: #131517;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    position: absolute;
+    left: 587.5px;    
+    top: 30.5px;
+}
+
+header h1 span {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+/*---------- Navigation Style ----------*/
+
+nav {
+    width: 1583px;
+    height: 50px;
+    margin-top: 1px;
+    text-align: center;
+    display: inline-block;
+    background-color: #131517;
+}
+
+nav ul li {
+    display: inline;
+    text-transform: uppercase;
+}
+
+nav li a {
+    transition: 0.3s;
+    padding: 0 14px;  
+    color: #fff;
+}
+
+nav li a:hover {
+    color: #131517;
+    background-color: #fff;
+    padding: 15px 14px 11px 14px;
+} 
+
+
+/*------------- Main Style -------------*/
+
+
+main {
+    width: 1200px;
+    height: 600px;
+    margin: 1px 0 0 0;
+    display: inline-block;
+    border-right: 1px solid #131517;
+}
+
+h1.welcome {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 0 0 0;
+}
+
+.content {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 20px;
+}
+
+/*------------ Sidebar Style -------------*/
+
+
+aside {
+    width: 380px;
+    height: 600px;
+    margin: 1px 0;
+    display: block;  
+    float: right;
+}
+
+.widget-title {
+    padding: 7px;
+    margin: 0 30px;        
+    font-size: 17px;
+    font-weight: 400;
+    border: 2px solid #eee;
+}
+
+.about-widget {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.about-widget img {
+    margin: 10px 0 0 0;
+}
+
+.about-widget hr {
+    width: 150px;
+}
+
+.about-widget p {
+    color: #131517;
+    line-height: 20px;
+}
+
+.contact-widget {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 5px 0 5px;
+}
+
+.widget-icons {
+    font-size: 16px;
+    margin: 10px 0 0 0;
+}
+
+.widget-icons ul li {
+    display: inline-block;
+}
+
+.widget-icons li a {
+    padding: 0 5px;
+    color: #131517;
+}
+
+.widget-icons i {
+    width: 30px;
+	height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #eee;
+}
+
+.widget-icons i:hover {
+    color: #fff;
+    background-color: #131517;
+    border: 1px solid #131517;
+    transition: .3s ease;
+    
+}
+
+
+/*-------------------- End Main Style --------------------*/
+
+
+
+
+/*-------------------- Start Pages Style --------------------*/
+/*----- Services Page -----*/
+
+h1.text1 {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    color: #000;
+    padding: 15px 0 0 0;
+}
+
+h1.text2 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+}
+
+.services-table {
+    position: absolute;
+    top: 350px;
+    left: 447px;
+}
+
+.services-table table {
+    border-collapse: collapse;
+	border-spacing: 0;
+    
+}
+
+.services-table table th {
+    color: #fff;
+    background-color: #131517;
+    padding: 15px;
+}
+
+.services-table table td {
+    color: #131517;
+    padding: 15px;
+}
+
+/*----- End Services Page -----*/
+
+/*----- Portfolio Page -----*/
+
+.projects {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 120px;
+    margin-top: 5px;
+}
+
+.projects li {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    background: #131517;
+    display: inline-block;
+}
+
+/*----- End Portfolio Page -----*/
+
+/*----- Contact Page -----*/
+
+.contact-form {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+input.input {
+    width:439px;
+	height:27px;
+	background-color:#efefef;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+textarea {
+	width:439px;
+	height:100px;
+	background-color: #efefef;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+input.radio {
+    font-size: 16px;
+    font-weight: 400;
+    background-color:#efefef;
+    margin: 10px;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #97d6eb;
+}
+
+#submit {
+	width:127px;
+	height:48px;
+	text-align: center;
+	border:none;
+	margin:20px 0 20px 0;
+	cursor:pointer;
+}
+	
+#submit:hover {
+	color:#fff;
+	background-color: #216182;
+	opacity:0.9;
+}
+
+#reset {
+	width:127px;
+	height:48px;
+	text-align: center;
+	border:none;
+	margin:20px 0 20px 0;
+	cursor:pointer;
+}
+
+#reset:hover {
+	color:#fff;
+	background-color: #000;
+	opacity:0.9;
+}
+
+
+/*----- End Contact Page -----*/
